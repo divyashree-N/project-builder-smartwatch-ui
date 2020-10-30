@@ -1,0 +1,52 @@
+.smartwatch {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    background-color: black;
+    border: 16px grey solid;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left: none;
+    border-right: none;
+    border-radius: 36px;
+    
+  }
+  
+  .datesmall{
+      position: relative;
+      color: white;
+      font-size: small;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5px;
+  }
+
+  .date{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+.day{
+    position: relative;
+    color: white;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeicon{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    justify-content: space-around;
+    margin-top: 65px;
+  }
